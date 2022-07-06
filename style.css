@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.headercard{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+
+.titlecard {
+    display: flex;
+}
+
+.cardcard {
+    display: flex;
+}
+
+.quotecard {
+    background-color: lightgray;
+}
+
+.callcard {
+    display: flex;
+    background-color: cornflowerblue ;
+}
+
+.links {
+    display: flex;
+}
+
+.square {
+    border: solid 5px dodgerblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+
+  }
