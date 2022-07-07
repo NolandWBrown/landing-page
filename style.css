@@ -6,10 +6,23 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 ul {
     list-style: none;
 }
 
+.button1 {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+}
 .headercard{
     display: flex;
     justify-content: space-around;
@@ -30,6 +43,11 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     align-items: center;
+    justify-content: center;
+    padding: 3em;
+
+}
+.wordcard {
 }
 
 .imagepara {
@@ -40,12 +58,24 @@ ul {
 
 .maintitletext {
     font-size: 48px;
+    font: bold;
+}
+
+.subtitletext {
+    font-size: 18px;
+    font: #E5E7EB
 }
 
 .imagecard {
     display: flex;
     background-color: grey;
-    width: 30%
+    padding: 3em;
+    align-self: flex-start;
+}
+
+.wordcard {
+    width: 30%;
+    min-width: 350px;
 }
 
 .cardcard {
