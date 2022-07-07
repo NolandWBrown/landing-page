@@ -12,11 +12,17 @@ ul {
 
 .headercard{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     font-size: 24px;
     padding-left: 50px;
     color: #F9FAF8;
+}
+
+.titlecontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
 }
 
 .titlecard {
@@ -37,8 +43,9 @@ ul {
 }
 
 .imagecard {
-    flex: 1 0 50%;
-    background-color: #1F2937;
+    display: flex;
+    background-color: grey;
+    width: 30%
 }
 
 .cardcard {
@@ -49,9 +56,31 @@ ul {
     background-color: lightgray;
 }
 
+.whitespace {
+    display: flex;
+    justify-content: center;
+}
+
 .callcard {
     display: flex;
     background-color: cornflowerblue ;
+    justify-content: space-between;
+    width: 80%;
+    height: 90;
+    gap: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    border-radius: 5px;
+}
+
+.cardbutton {
+    align-self: center;
+    width: 15%;
+}
+
+.cardtext p {
+    margin:0;
 }
 
 .colorcard {
