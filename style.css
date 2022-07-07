@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    margin: 0;
 }
 
 ul {
@@ -12,11 +13,32 @@ ul {
 .headercard{
     display: flex;
     justify-content: space-between;
-    background-color: darkblue;
+    background-color: #1F2937;
+    font-size: 24px;
+    padding-left: 50px;
+    color: #F9FAF8;
 }
 
 .titlecard {
     display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+}
+
+.imagepara {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.maintitletext {
+    font-size: 48px;
+}
+
+.imagecard {
+    flex: 1 0 50%;
+    background-color: #1F2937;
 }
 
 .cardcard {
@@ -32,8 +54,14 @@ ul {
     background-color: cornflowerblue ;
 }
 
+.colorcard {
+    display: flex;
+    flex-direction: column;
+}
 .links {
     display: flex;
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 .square {
@@ -41,5 +69,12 @@ ul {
     width: 100px;
     height: 100px;
     border-radius: 10px;
-
   }
+
+ .header {
+    color: #F9FAF8;
+ }
+
+ .footer {
+    background-color: #1F2937;
+ }
