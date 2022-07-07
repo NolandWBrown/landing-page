@@ -34,7 +34,7 @@ ul {
 
 .titlecontainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #1F2937;
 }
 
@@ -43,17 +43,21 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 3em;
 
 }
 .wordcard {
 }
 
+.imagecard {
+}
+
 .imagepara {
     display: flex;
     justify-content: center;
     background-color: grey;
+    padding: 3em;
 }
 
 .maintitletext {
