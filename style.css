@@ -43,7 +43,7 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 3em;
 
 }
@@ -125,6 +125,7 @@ ul {
     display: flex;
     color: #F9FAF8;
     font-size: 18px;
+    gap: 1em;
 }
 
 .square {
