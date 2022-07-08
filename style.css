@@ -3,7 +3,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 p {
@@ -82,8 +84,21 @@ ul {
     min-width: 350px;
 }
 
+.randombox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cardcard {
     display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    max-width: 10em;
+
 }
 
 .quotecard {
@@ -98,7 +113,7 @@ ul {
 .callcard {
     display: flex;
     background-color: cornflowerblue ;
-    justify-content: space-between;
+    justify-content: center;
     width: 80%;
     height: 90;
     gap: 5em;
@@ -106,6 +121,8 @@ ul {
     padding-bottom: 1em;
     padding-left: 2em;
     border-radius: 5px;
+
+    max-width: 50em;
 }
 
 .cardbutton {
@@ -130,8 +147,8 @@ ul {
 
 .square {
     border: solid 5px dodgerblue;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 10px;
   }
 
