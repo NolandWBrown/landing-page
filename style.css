@@ -5,7 +5,8 @@ body {
     min-height: 100vh;
     margin-right: auto;
     margin-left: auto;
-    max-width: 960px;
+    max-width: 1600px;
+    padding: 20px;
 }
 
 p {
@@ -19,12 +20,26 @@ ul {
 .button1 {
     background-color: #3882F6;
     border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 8px;
     padding-bottom: 8px;
-    color: white;
 }
+
+.button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    max-height: 2em;
+    white-space: nowrap;
+    
+}
+
 .headercard{
     display: flex;
     justify-content: space-around;
@@ -84,16 +99,23 @@ ul {
     min-width: 350px;
 }
 
+.random {
+    display: flex;
+    justify-content: center;
+}
+
 .randombox {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .cardcard {
     display: flex;
     justify-content: center;
     gap: 25px;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -102,6 +124,8 @@ ul {
 }
 
 .quotecard {
+    display: flex;
+    justify-content: center;
     background-color: lightgray;
 }
 
@@ -112,22 +136,24 @@ ul {
 
 .callcard {
     display: flex;
-    background-color: cornflowerblue ;
+    background-color: #3882F6;
     justify-content: center;
-    width: 80%;
+    width: 75%;
     height: 90;
     gap: 5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 2em;
     border-radius: 5px;
-
+    min-width: 30em;
     max-width: 50em;
+    color: #F9FAF8;
+    margin: 40px;
 }
 
 .cardbutton {
     align-self: center;
-    width: 15%;
+
 }
 
 .cardtext p {
@@ -158,4 +184,26 @@ ul {
 
  .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
  }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    min-width: 90%;
+}
+
+figcaption {
+    align-self: flex-end;
+    font-size: 36px;
+    font-style: italic;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+
+}
